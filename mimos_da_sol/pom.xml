@@ -86,6 +86,11 @@
             <url>https://repository.jboss.org/nexus/content/repositories/</url>
         </repository>
 
+
+        <repository>  
+            <id>JBoss Reposit</id>  
+            <url>http://repository.jboss.com/maven2</url>  
+        </repository> 
         <!-- JBOSS REPOSITORY -->
         <repository>
             <id>JBoss Repo</id>
@@ -248,6 +253,33 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-c3p0</artifactId>
             <version>${hibernate.version}</version>
+        </dependency>
+        
+        <dependency>  
+            <groupId>org.hibernate.java-persistence</groupId>  
+            <artifactId>jpa-api</artifactId>  
+            <version>2.0-cr-1</version>  
+        </dependency>  
+        <dependency>  
+            <groupId>org.hibernate</groupId>  
+            <artifactId>hibernate-entitymanager</artifactId>  
+            <version>3.5.0-Beta-2</version>  
+        </dependency>  
+        
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-annotations</artifactId>
+            <version>3.5.0-Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>3.5.0-Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>3.5.0-Final</version>
         </dependency>
             
         <!-- ############### C3P0 ################## -->
